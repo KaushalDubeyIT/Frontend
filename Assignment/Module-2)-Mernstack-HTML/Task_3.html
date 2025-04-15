@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      border: 1px solid #333;
+    }
+
+    thead tr {
+      background-color: #f2f2f2;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    td img {
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Product Catalog</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Product Image</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Availability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wireless Mouse</td>
+        <td><img src="https://via.placeholder.com/100" alt="Wireless Mouse"></td>
+        <td>$25.99</td>
+        <td>Ergonomic wireless mouse with adjustable DPI settings.</td>
+        <td>In Stock</td>
+      </tr>
+      <tr>
+        <td>Bluetooth Headphones</td>
+        <td><img src="https://via.placeholder.com/100" alt="Bluetooth Headphones"></td>
+        <td>$49.99</td>
+        <td>Noise-cancelling over-ear headphones with long battery life.</td>
+        <td>Out of Stock</td>
+      </tr>
+      <tr>
+        <td>4K Monitor</td>
+        <td rowspan="2"><img src="https://via.placeholder.com/100" alt="4K Monitor"></td>
+        <td>$299.99</td>
+        <td>Ultra HD 27" display for professional use.</td>
+        <td>In Stock</td>
+      </tr>
+      <tr>
+        <td>Monitor Stand (for 4K Monitor)</td>
+        <td>$39.99</td>
+        <td colspan="2">Adjustable aluminum stand compatible with most monitors. Currently In Stock.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

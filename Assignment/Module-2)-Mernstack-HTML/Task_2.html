@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        form {
+            width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea,
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <!-- Full Name -->
+        <label for="">Full Name</label>
+        <input type="text" required minlength="2" maxlength="50">
+
+        <!-- Email -->
+        <label for="">Email</label>
+        <input type="email" pattern="[a-z0-9.]+@+[a-z]+.+[a-z]{2,3}" required>
+
+        <!-- Phone Number -->
+        <label for="">Phone Number</label>
+        <input type="tel" maxlength="10" pattern="[6789][0-9]{9}" title="Please enter a valid phone number" required>
+
+        <!-- Subject Dropdown -->
+        <label for="">Subject</label>
+        <select required>
+            <option value="">-- Please choose an option --</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+        </select>
+
+        <!-- Message -->
+        <label for="">Message</label>
+        <textarea  required minlength="10" maxlength="500" rows="5"></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
