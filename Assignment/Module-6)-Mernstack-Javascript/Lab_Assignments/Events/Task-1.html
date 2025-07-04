@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+    <style>
+        /* Task-1) Create a simple webpage with a button that, when clicked, displays an alert saying"Button clicked!" using JavaScript event listeners.*/
+
+        button {
+            background-color: rgb(207, 201, 201);
+            color: black;
+            border-radius: 10px;
+            width: 200px;
+            padding: 10px 20px;
+            border: 1px solid rgb(207, 201, 201);
+        }
+
+        button:active {
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="message()">
+        Button
+    </button>
+
+    <script>
+        function message() {
+            alert("Button clicked!");
+        }
+    </script>
+</body>
+
+</html>
