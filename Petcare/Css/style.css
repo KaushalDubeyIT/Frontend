@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header start */
+#Header {
+    background-image: url("/Images/header-background.png");
+    background-size: 100% 100%;
+}
+
+.nav-color {
+    background-color: rgb(46, 124, 188, 0.5);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar .logo {
+    width: 100px;
+}
+
+.navlist .list {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navlist .list .nav-a {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+.navbar .icon .nav-i,
+.nav-b {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-b {
+    display: none;
+}
+
+.header-main {
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.header-main .header-h1 {
+    font-size: 75px;
+    font-size: clamp(20px, 7.5vw, 75px);
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.header-main .header-p {
+    font-size: clamp(16px, 3.4vw, 30px);
+    font-weight: 400;
+    font-family: "Nunito";
+    width: 60%;
+    margin: 25px auto;
+}
+
+.header-main .header-btn {
+    font-size: clamp(16px, 3.4vw, 30px);
+    font-weight: 400;
+    font-family: "Nunito";
+    width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px 0px;
+    border-radius: 32px;
+    background-color: #edc315;
+}
+
+/* header end */
+
+/* Title start */
+#Title {
+    background-color: #739ee3;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#Title::after {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.title-main {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.title-main .title-h1 {
+    font-size: clamp(20px, 7.5vw, 75px);
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.title-main .title-p {
+    font-size: clamp(16px, 3.4vw, 30px);
+    font-weight: 400;
+    font-family: "Nunito";
+    width: 60%;
+    margin: 20px auto;
+}
+
+.card-data .row {
+    display: flex;
+}
+
+.card-data .row .col {
+    width: 33.33%;
+}
+
+.card .card-img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card-content {
+    font-family: "Poppins";
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card-content .card-h4 {
+    font-size: clamp(18px, 4vw, 37px);
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.card-content .card-p {
+    width: 70%;
+    margin: 10px auto;
+    font-size: clamp(16px, 3.2vw, 22px);
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+/* Title end */
+
+/* sec2 start */
+#sec2 {
+    background-color: #739ee3;
+    padding: 40px 0;
+}
+
+.sec2 .row {
+    display: flex;
+    align-items: center;
+}
+
+.sec2 .row .col {
+    width: 50%;
+}
+
+.sec2-img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sec2-content .sec2-h1 {
+    font-size: clamp(20px, 7.5vw, 75px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.sec2-content .sec2-p {
+    font-size: clamp(16px, 3.4vw, 30px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    width: 90%;
+    margin: 20px 0;
+}
+
+.sec2-content .sec2-btn {
+    border: none;
+    border-radius: 32px;
+    padding: 15px 30px;
+    background-color: #edc315;
+    font-size: clamp(16px, 3.2vw, 25px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+/* sec2 end */
+
+/* sec3 start */
+.sec3 .row {
+    display: flex;
+    align-items: center;
+}
+
+.sec3 .row .col {
+    width: 50%;
+}
+
+/* sec3 end */
+
+
+/* footer start */
+
+#footer {
+    background-color: #343434;
+    padding: 60px 0;
+}
+
+#footer .row {
+    display: flex;
+}
+
+#footer .row .col-4 {
+    width: 40%;
+}
+
+#footer .row .col-6 {
+    width: 60%;
+}
+
+.footer .row .col {
+    width: 33.33%;
+}
+
+.footer .footer-h4 {
+    font-size: clamp(18px, 4vw, 33px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.footer-ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-ul .footer-li {
+    margin: 10px 0;
+}
+
+.footer-ul .footer-li .footer-a {
+    text-decoration: none;
+    font-size: clamp(16px, 3.2vw, 25px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+.footer .footer-p {
+    width: 85%;
+    margin: 20px 0;
+    font-size: clamp(16px, 3.2vw, 25px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+/* footer end */
