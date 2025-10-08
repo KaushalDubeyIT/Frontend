@@ -1,0 +1,79 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "name": "Why Children Dont Like Getting Out Of The Water",
+      "date": "2025-10-04",
+      "event": "Insight",
+      "image": "https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?_gl=1*188a65f*_ga*MTQ3OTQ1NDk4Ni4xNzU1NDE4MjM2*_ga_8JE65Q40S6*czE3NTc0ODYyOTUkbzMkZzEkdDE3NTc0ODYzMDQkajUxJGwwJGgw",
+      "desc": "Ediited data"
+    },
+    {
+      "id": "2",
+      "name": "5 Ways To Enjoy Waterland This Spring Break",
+      "date": "oct 19, 2023",
+      "event": "Insight",
+      "image": "https://images.pexels.com/photos/33350144/pexels-photo-33350144.jpeg?_gl=1*6pptu2*_ga*MTQ3OTQ1NDk4Ni4xNzU1NDE4MjM2*_ga_8JE65Q40S6*czE3NTc0ODYyOTUkbzMkZzEkdDE3NTc0ODYzNDYkajkkbDAkaDA.",
+      "desc": "This is a image of insight trip-1"
+    },
+    {
+      "id": "3",
+      "name": "3 Tips for Your Family Spring Break at Amusement Park",
+      "date": "sep 19, 2024",
+      "event": "Insight",
+      "image": "https://images.pexels.com/photos/6624558/pexels-photo-6624558.jpeg?_gl=1*olt1kl*_ga*MTQ3OTQ1NDk4Ni4xNzU1NDE4MjM2*_ga_8JE65Q40S6*czE3NTc0ODYyOTUkbzMkZzEkdDE3NTc0ODYzNTYkajU5JGwwJGgw",
+      "desc": "This is a image of insight trip-2"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Kaushal",
+      "email": "kaushal@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Aman",
+      "email": "aman@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "name": "Ayush",
+      "email": "ayush@gmail.com",
+      "password": "123489"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "name": "Kaushal Dubey",
+      "work": "Information technology",
+      "des": "Myself kaushal and currently i am learning React.js in Frontend development",
+      "image": "https://media.istockphoto.com/id/488560161/photo/indian-business-man-smiling.jpg?b=1&s=612x612&w=0&k=20&c=C_lq-7ddqm7iy52Zqhraslx_8Kq8JMsjYxVXbXnBMhU="
+    },
+    {
+      "id": "2",
+      "name": "Aman Sharma",
+      "work": "Cyber security",
+      "des": "Myself Aman and currently i am learning Cyber security",
+      "image": "https://media.istockphoto.com/id/1343563115/photo/man-feeling-depressed-on-receiving-bad-news-using-phone.jpg?b=1&s=612x612&w=0&k=20&c=SivRIG2HFgh5S9ffluMu9OLLzkZkAq1Eiw2A_fH1c10="
+    },
+    {
+      "id": "3",
+      "name": "Ayush Patel",
+      "work": "Software Engineering",
+      "des": "Myself Ayush and currently i am learning Software Engineering",
+      "image": "https://images.pexels.com/photos/4173168/pexels-photo-4173168.jpeg?_gl=1*pmpmc9*_ga*MTQ3OTQ1NDk4Ni4xNzU1NDE4MjM2*_ga_8JE65Q40S6*czE3NTc0OTk3MzckbzQkZzEkdDE3NTc0OTk4MTEkajYwJGwwJGgw"
+    }
+  ]
+}

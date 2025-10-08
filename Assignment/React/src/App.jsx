@@ -17,10 +17,16 @@ import Extrenal_css from "./Module-16) React -Advance React- Styling , Routing/S
 import Usestate from "./Lists , Hooks , Localstorage , Api Project/Hooks/Usestate";
 import Useeffect from "./Lists , Hooks , Localstorage , Api Project/Hooks/Useeffect";
 import Useref from "./Lists , Hooks , Localstorage , Api Project/Hooks/Useref";
+import Que_1 from "./React – Json-Server And Firebase Real Time Database/Task-1/Que_1";
+import Que_2 from "./React – Json-Server And Firebase Real Time Database/Task-1/Que_2";
+import CounterData from "./Module-18) React - Applying Redux/Features/Counter/CounterData";
+import TodoData from "./Module-18) React - Applying Redux/Features/Todo/TodoData";
+import CrudData from "./Module-18) React - Applying Redux/Features/CRUD/CrudData";
 
 function App() {
   return (
     <div>
+      <h1>This is App data</h1>
       <BrowserRouter>
         {/* <Task_1_data/> */}
         {/* <Task_2/> */}
@@ -42,7 +48,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
         </Routes> */}
-        
+
         {/*----------------------- Styling------------------------ */}
         {/* <Inline_css/> */}
         {/* <Internal_css/> */}
@@ -51,7 +57,16 @@ function App() {
         {/*--------------------------- Hooks------------------------------- */}
         {/* <Usestate/> */}
         {/* <Useeffect/> */}
-          {/* <Useref/>   */}
+        {/* <Useref/>   */}
+
+        {/*--------- Json-server & Firebase RealTime Database-------------- */}
+        {/* <Que_1/> */}
+        {/* <Que_2/> */}
+
+        {/* -----------------------React-Redux------------------------------ */}
+        {/* <CounterData/> */}
+        {/* <TodoData/> */}
+        {/* <CrudData /> */}
       </BrowserRouter>
     </div>
   );
