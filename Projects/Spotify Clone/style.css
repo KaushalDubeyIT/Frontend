@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: black;
+}
 .main {
   font-family: "Roboto", sans-serif;
 }
@@ -14,11 +17,11 @@
   width: 14px;
   display: flex;
   gap: 14px;
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: bold;
 }
 .library {
-  min-height: 80vh;
+  min-height: 75vh;
   position: relative;
 }
 .library .heading {
@@ -32,7 +35,7 @@
 }
 
 .library .heading img {
-  width: 30px;
+  width: 25px;
 }
 .library .footer {
   font-size: 10px;
@@ -44,7 +47,39 @@
 .library .footer a {
   color: gray;
 }
+.footer div a {
+  text-decoration: none;
+}
 /* -- -----Right part------- -- */
 .right {
   width: 75vw;
 }
+.header{
+  background-color: #1c1c1c;
+}
+.header .nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .arrow img {
+  margin-right: 25px;
+  width: 15px;
+}
+.headerbtn-1 {
+  color: rgb(201, 196, 196);
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  background: #1c1c1c;
+}
+.headerbtn-2 {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: none;
+}
+

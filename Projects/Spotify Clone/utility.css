@@ -33,3 +33,7 @@
 .rounded{
     border-radius: 10px;
 }
+.button{
+  border-radius: 50px;
+  padding: 10px 15px;
+}
